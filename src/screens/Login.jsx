@@ -15,7 +15,7 @@ const Login = () => {
                         <Image source={Icons.logo} width={Icons.width} height={Icons.height}/>
                     </View>
                     <View style={{gap:10}}>
-                        <CustomInput placeholder={'Username or Email'} secureTextEntry={false}/>
+                        <CustomInput placeholder={'Username or Email'} secureTextEntry={false} showIcon={false}/>
                         <CustomInput placeholder={'Password'} secureTextEntry={true}/>
                         <Text style={{textAlign:'right', color: COLORS.primary}}>Forgot Password?</Text>
                     </View>
