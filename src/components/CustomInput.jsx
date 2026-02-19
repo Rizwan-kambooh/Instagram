@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { View, TextInput, StyleSheet } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { COLORS } from '../utils/Constants';
-const CustomInput = ({ placeholder, secureTextEntry = true, showIcon = true }) => {
+const CustomInput = ({ placeholder, secureTextEntry = false, showIcon = false , value, onChange, onBlur}) => {
     const [isSecure, setIsSecure] = useState(secureTextEntry);
     const toggleSecureEntry = () => {
         setIsSecure(!isSecure);
@@ -13,6 +13,9 @@ const CustomInput = ({ placeholder, secureTextEntry = true, showIcon = true }) =
                 style={styles.input}
                 placeholder={placeholder}
                 secureTextEntry={isSecure}
+                onChangeText={onChange}
+                onBlur={onBlur}
+                value={value}
             />
             {showIcon && <Icon name={isSecure ? "eye-slash" : "eye"} size={20} color={COLORS.gray} style={{ position: 'absolute', right: 10, top: 12 }} onPress={toggleSecureEntry} />}
         </View>
