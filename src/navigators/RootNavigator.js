@@ -1,9 +1,10 @@
 import AuthNavigator from "./AuthNavigator";
-import { AppNavigator } from "./AppNavigator";
+import { BottomNavgators } from "./BottomNavgators";
+import { useSelector } from "react-redux";
 const RootNavigator = () => {
-    const isLoggedIn = false;
+  const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
   return (
-    isLoggedIn ? <AppNavigator /> : <AuthNavigator />
+    isLoggedIn ? <BottomNavgators /> : <AuthNavigator />
   )
 }
 

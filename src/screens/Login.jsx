@@ -9,7 +9,10 @@ import { useNavigation } from '@react-navigation/native';
 import { useForm, Controller } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { loginSchema } from '../validation/loginSchema';
+import { useDispatch } from 'react-redux';
+import { loginSuccess } from '../redux/slices/authSlice';
 const Login = () => {
+    const dispatch = useDispatch();
     const user = {
         username: 'rizwan',
         email: 'rizwan@gmail.com',
@@ -29,7 +32,7 @@ const Login = () => {
     const handleLogin = async (data) => {
         console.log('Login button pressed with data:', data.email);
         if (data.email === user.email && data.password === user.password) {
-            navigation.navigate('Home');
+            dispatch(loginSuccess(user));
         } else {
             alert('Invalid email or password');
         }
