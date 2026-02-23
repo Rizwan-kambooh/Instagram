@@ -1,0 +1,235 @@
+{
+    "userId": "u100",
+    "username": "muhammad_rizwan",
+    "fullName": "Muhammad Rizwan",
+    "profileImage": "https://i.pravatar.cc/150?u=muhammad_rizwan",
+    "bio": "React Native Developer | Tech Enthusiast | Traveler ✈️ | Coffee Lover ☕",
+    "website": "https://www.rizwan.dev",
+    "followersCount": 1200,
+    "followingCount": 350,
+    "postsCount": 25,
+    "isFollowing": false,
+    "homeFeed": {
+        "stories": [
+            {
+                "storyId": "s101",
+                "userId": "u201",
+                "username": "emma_wander_daniel_denny",
+                "profileImage": "https://i.pravatar.cc/150?u=emma_wander",
+                "storyImages": [
+                    "https://picsum.photos/id/1015/400/700",
+                    "https://picsum.photos/id/1018/400/700"
+                ],
+                "isSeen": false,
+                "timestamp": "2026-02-20T07:20:00Z"
+            },
+            {
+                "storyId": "s102",
+                "userId": "u301",
+                "username": "travel_with_tom",
+                "profileImage": "https://i.pravatar.cc/150?u=travel_with_tom",
+                "storyImages": [
+                    "https://picsum.photos/id/1020/400/700"
+                ],
+                "isSeen": true,
+                "timestamp": "2026-02-20T09:10:00Z"
+            },
+            {
+                "storyId": "s103",
+                "userId": "u401",
+                "username": "foodie_lore",
+                "profileImage": "https://i.pravatar.cc/150?u=foodie_lore",
+                "storyImages": [
+                    "https://picsum.photos/id/1032/400/700",
+                    "https://picsum.photos/id/1033/400/700"
+                ],
+                "isSeen": false,
+                "timestamp": "2026-02-20T10:05:00Z"
+            },
+            {
+                "storyId": "s104",
+                "userId": "u201",
+                "username": "emma_wander",
+                "profileImage": "https://i.pravatar.cc/150?u=emma_wander",
+                "storyImages": [
+                    "https://picsum.photos/id/1015/400/700",
+                    "https://picsum.photos/id/1018/400/700"
+                ],
+                "isSeen": false,
+                "timestamp": "2026-02-20T07:20:00Z"
+            },
+            {
+                "storyId": "s105",
+                "userId": "u301",
+                "username": "travel_with_tom",
+                "profileImage": "https://i.pravatar.cc/150?u=travel_with_tom",
+                "storyImages": [
+                    "https://picsum.photos/id/1020/400/700"
+                ],
+                "isSeen": true,
+                "timestamp": "2026-02-20T09:10:00Z"
+            },
+            {
+                "storyId": "s106",
+                "userId": "u401",
+                "username": "foodie_lore",
+                "profileImage": "https://i.pravatar.cc/150?u=foodie_lore",
+                "storyImages": [
+                    "https://picsum.photos/id/1032/400/700",
+                    "https://picsum.photos/id/1033/400/700"
+                ],
+                "isSeen": false,
+                "timestamp": "2026-02-20T10:05:00Z"
+            },
+            {
+                "storyId": "s107",
+                "userId": "u201",
+                "username": "emma_wander",
+                "profileImage": "https://i.pravatar.cc/150?u=emma_wander",
+                "storyImages": [
+                    "https://picsum.photos/id/1015/400/700",
+                    "https://picsum.photos/id/1018/400/700"
+                ],
+                "isSeen": false,
+                "timestamp": "2026-02-20T07:20:00Z"
+            },
+            {
+                "storyId": "s108",
+                "userId": "u301",
+                "username": "travel_with_tom",
+                "profileImage": "https://i.pravatar.cc/150?u=travel_with_tom",
+                "storyImages": [
+                    "https://picsum.photos/id/1020/400/700"
+                ],
+                "isSeen": true,
+                "timestamp": "2026-02-20T09:10:00Z"
+            },
+            {
+                "storyId": "s109",
+                "userId": "u401",
+                "username": "foodie_lore",
+                "profileImage": "https://i.pravatar.cc/150?u=foodie_lore",
+                "storyImages": [
+                    "https://picsum.photos/id/1032/400/700",
+                    "https://picsum.photos/id/1033/400/700"
+                ],
+                "isSeen": false,
+                "timestamp": "2026-02-20T10:05:00Z"
+            }
+        ],
+        "posts": [
+            {
+                "postId": "p101",
+                "userId": "u201",
+                "username": "emma_wander",
+                "profileImage": "https://i.pravatar.cc/150?u=emma_wander",
+                "postImage": "https://picsum.photos/id/1040/600/600",
+                "caption": "Morning hike in the mountains 🌲☀️ — the view was insane! #nature #mountains",
+                "likesCount": 285,
+                "isLiked": false,
+                "timestamp": "2026-02-19T08:30:00Z",
+                "comments": [
+                    {
+                        "commentId": "c101",
+                        "userId": "u100",
+                        "username": "alex_dev",
+                        "profileImage": "https://i.pravatar.cc/150?u=alex_dev",
+                        "commentText": "That view is breathtaking 😍",
+                        "timestamp": "2026-02-19T08:45:00Z"
+                    },
+                    {
+                        "commentId": "c102",
+                        "userId": "u501",
+                        "username": "mountain_jane",
+                        "profileImage": "https://i.pravatar.cc/150?u=mountain_jane",
+                        "commentText": "Imagine waking up to this every day!",
+                        "timestamp": "2026-02-19T09:10:00Z"
+                    }
+                ]
+            },
+            {
+                "postId": "p102",
+                "userId": "u301",
+                "username": "travel_with_tom",
+                "profileImage": "https://i.pravatar.cc/150?u=travel_with_tom",
+                "postImage": "https://picsum.photos/id/1050/600/600",
+                "caption": "Exploring the old town streets 🌆 — every corner tells a story...",
+                "likesCount": 198,
+                "isLiked": true,
+                "timestamp": "2026-02-18T17:15:00Z",
+                "comments": [
+                    {
+                        "commentId": "c103",
+                        "userId": "u100",
+                        "username": "alex_dev",
+                        "profileImage": "https://i.pravatar.cc/150?u=alex_dev",
+                        "commentText": "Love these colors and vibes!",
+                        "timestamp": "2026-02-18T17:30:00Z"
+                    }
+                ]
+            },
+            {
+                "postId": "p103",
+                "userId": "u401",
+                "username": "foodie_lore",
+                "profileImage": "https://i.pravatar.cc/150?u=foodie_lore",
+                "postImage": "https://picsum.photos/id/1060/600/600",
+                "caption": "Brunch goals ☕🥐 — can’t get enough of Paris pastries!",
+                "likesCount": 330,
+                "isLiked": false,
+                "timestamp": "2026-02-18T11:45:00Z",
+                "comments": [
+                    {
+                        "commentId": "c104",
+                        "userId": "u601",
+                        "username": "chef_sam",
+                        "profileImage": "https://i.pravatar.cc/150?u=chef_sam",
+                        "commentText": "OMG that looks delicious 😋",
+                        "timestamp": "2026-02-18T12:00:00Z"
+                    },
+                    {
+                        "commentId": "c105",
+                        "userId": "u100",
+                        "username": "alex_dev",
+                        "profileImage": "https://i.pravatar.cc/150?u=alex_dev",
+                        "commentText": "Where is this place?",
+                        "timestamp": "2026-02-18T12:05:00Z"
+                    }
+                ]
+            },
+            {
+                "postId": "p104",
+                "userId": "u601",
+                "username": "chef_sam",
+                "profileImage": "https://i.pravatar.cc/150?u=chef_sam",
+                "postImage": "https://picsum.photos/id/1075/600/600",
+                "caption": "New recipe alert 🍝✨ — creamy truffle pasta with fresh basil!",
+                "likesCount": 412,
+                "isLiked": true,
+                "timestamp": "2026-02-17T14:20:00Z",
+                "comments": [
+                    {
+                        "commentId": "c106",
+                        "userId": "u100",
+                        "username": "alex_dev",
+                        "profileImage": "https://i.pravatar.cc/150?u=alex_dev",
+                        "commentText": "Adding this to my must‑try list!",
+                        "timestamp": "2026-02-17T14:35:00Z"
+                    }
+                ]
+            },
+            {
+                "postId": "p105",
+                "userId": "u701",
+                "username": "adventure_kate",
+                "profileImage": "https://i.pravatar.cc/150?u=adventure_kate",
+                "postImage": "https://picsum.photos/id/1083/600/600",
+                "caption": "Sunset vibes 🌇 — never miss golden hour!",
+                "likesCount": 279,
+                "isLiked": false,
+                "timestamp": "2026-02-17T18:55:00Z",
+                "comments": []
+            }
+        ]
+    }
+}

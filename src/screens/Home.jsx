@@ -1,11 +1,16 @@
-import { View, Text } from 'react-native'
+import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
-
+import Screen from '../components/Screen'
+import Appbar from '../components/Appbar'
+import Stories from '../components/Stories'
 const Home = () => {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <Screen>
+      <View>
+        <Appbar/>
+        <Stories/>
+      </View>
+    </Screen>
   )
 }
 
